@@ -1,0 +1,37 @@
+PODS:
+  - BVLinearGradient (2.4.0):
+    - React
+  - GoogleMaps (2.5.0):
+    - GoogleMaps/Maps (= 2.5.0)
+  - GoogleMaps/Base (2.5.0)
+  - GoogleMaps/Maps (2.5.0):
+    - GoogleMaps/Base
+  - React (0.50.3):
+    - React/Core (= 0.50.3)
+  - React/Core (0.50.3):
+    - yoga (= 0.50.3.React)
+  - yoga (0.50.3.React)
+
+DEPENDENCIES:
+  - BVLinearGradient (from `../node_modules/react-native-linear-gradient`)
+  - GoogleMaps
+  - React (from `../node_modules/react-native`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga/Yoga.podspec`)
+
+EXTERNAL SOURCES:
+  BVLinearGradient:
+    :path: ../node_modules/react-native-linear-gradient
+  React:
+    :path: ../node_modules/react-native
+  yoga:
+    :path: ../node_modules/react-native/ReactCommon/yoga/Yoga.podspec
+
+SPEC CHECKSUMS:
+  BVLinearGradient: 4b3f3bdf1ac1a52a5ef5e65c9585d793a7c3f825
+  GoogleMaps: c087b8e5dfe87ca6ebf59adb9b4894a4146bec4f
+  React: 541ba768b9855e10cdc76f55427a5cd0653ca806
+  yoga: 17521bbb0dd54a47c0b3ac43253e78cdac7488e0
+
+PODFILE CHECKSUM: ebc71e0f45a19a1af8d3e41900fe7748b4d5c2f8
+
+COCOAPODS: 1.4.0
